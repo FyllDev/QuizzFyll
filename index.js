@@ -1,95 +1,95 @@
 const perguntas = [
-    {
-      pergunta: "Qual a cor favorita do Fyll",
-      respostas: [
-        "Verde;",
-        "Vermelho;",
-        "Azul;",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual a data de aniversário do Fyll?",
-      respostas: [
-        "17/03",
-        "27/01",
-        "19/02",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual a bebida favorita do Fyll?",
-      respostas: [
-        "Cerveja.",
-        "Wiskhy.",
-        "Vinho.",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual o Hobby favorito do Fyll?",
-      respostas: [
-        "Jogar Videogame.",
-        "Ver séries.",
-        "Ver Filmes.",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual o Filme favorito do Fyll?",
-      respostas: [
-        "O Poderoso Chefão",
-        "O Senhor dos Anéis",
-        "Harry Potter",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual o estilo musical favorito do Fyll",
-      respostas: [
-        "Rap",
-        "Heavy Metal",
-        "Punk Rock",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Quem o maior inimigo do Fyll?",
-      respostas: [
-        "Ninguém o Fyll é um fofo",
-        "Tati",
-        "Betânia",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Quantos gatos o Fyll tem?",
-      respostas: [
-        "3",
-        "5",
-        "4",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual a comida favorita do Fyll?",
-      respostas: [
-        "Sushi",
-        "Pizza",
-        "Churrasco",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual a altura do Fyll?",
-      respostas: [
-        "1,58",
-        "1,68",
-        "1,73",
-      ],
-      correta: 1
-    },
-   ];
+  {
+    pergunta: "Quem é o autor de O Senhor dos Anéis?",
+    respostas: [
+      "J.K. Rowling",
+      "George R. R. Martin",
+      "J.R.R. Tolkien",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome da terra onde a maior parte da história de O Senhor dos Anéis ocorre?",
+    respostas: [
+      "Terra Média",
+      "Nárnia",
+      "Westeros",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem é o personagem principal de O Senhor dos Anéis?",
+    respostas: [
+      "Frodo Bolseiro",
+      "Gandalf",
+      "Aragorn",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do anel mágico que é o foco central da trama de O Senhor dos Anéis?",
+    respostas: [
+      "Anel do Poder",
+      "Anel de Fogo",
+      "Um Anel",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quem é o governante do país de Gondor em O Senhor dos Anéis?",
+    respostas: [
+      "Saruman",
+      "Denethor",
+      "Théoden",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome do cavalo de Gandalf em O Senhor dos Anéis?",
+    respostas: [
+      "Arwen",
+      "Sombrafax",
+      "Faramir",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o título do segundo livro da trilogia O Senhor dos Anéis?",
+    respostas: [
+      "A Sociedade do Anel",
+      "As Duas Torres",
+      "O Retorno do Rei",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quem é o governante de Valfenda em O Senhor dos Anéis?",
+    respostas: [
+      "Legolas",
+      "Galadriel",
+      "Elrond",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é Mordor em O Senhor dos Anéis?",
+    respostas: [
+      "O lar dos Elfos",
+      "A terra dos Hobbits",
+      "A terra de Sauron",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do vulcão em Mordor onde o Anel deve ser destruído?",
+    respostas: [
+      "Montanha da Perdição",
+      "Montanha da Desolação",
+      "Montanha Solitária",
+    ],
+    correta: 0
+  },
+ ];
    // Selecionando os nós Quiz e Template feitos no HTML
    const quiz = document.querySelector('#quiz')
    const template = document.querySelector('template')
